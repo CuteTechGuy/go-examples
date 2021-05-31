@@ -1,4 +1,4 @@
-package main
+package binaryTree
 
 import (
 	"fmt"
@@ -50,7 +50,7 @@ func (n *Node) Search(k int) (bool, string) {
 	return true, n.Value
 }
 
-func main() {
+func BinaryTreeExample() {
 	tree := &Node{Key: 100, Value: "Birinci"}
 	tree.Insert(50, "İkinci")
 	tree.Insert(105, "Üçüncü")

@@ -1,11 +1,11 @@
-package main
+package factorial
 
 import (
 	"fmt"
 	"time"
 )
 
-func main() {
+func Factorial() {
 	defer elapsed()()
 	number := 6
 	//workerCount := 1
